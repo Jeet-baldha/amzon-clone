@@ -1,0 +1,197 @@
+*{
+    margin:  0;
+    padding: 0;
+}
+
+body{
+    color: #0F1111;
+}
+
+a{
+    text-decoration: none!important;
+    outline:none!important;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+.nav-bar-1{
+    display: flex;
+    background-color: #000000;
+    color: #f2f2f2;
+    height: 60px;
+    align-items: center;
+    position: sticky;
+    width: 100%;
+}
+
+.nav-bar-1 a{
+    color: #f2f2f2;
+}
+
+
+.left-bar{
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    width: 150px;
+    padding: 0;
+    color: white;
+    margin: 0;
+}
+.address{
+    display: flex;
+    align-items: center;
+}
+
+.add-text{
+    padding-left: 8px;
+}
+
+.search-bar{
+    width: 70%;
+}
+
+
+
+#search{
+    border-radius: 4px 0 0 4px;
+    height: 38px;
+    width: 90%;
+    line-height: 15px;
+    outline: none;
+    border: none;
+}
+
+#search-btn {
+    position: absolute;
+    background-color: #ff9900;
+    color: #000000;
+    height: 38px;
+    padding: 0 12px 0 12px;
+    outline: none;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.tool-layout{
+    display:flex;
+    width: 25%;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.cart{
+    font-weight: bolder;
+}
+
+.lan-opt select{
+    background-color: #000000;
+    color: #f2f2f2;
+    outline: none;
+    border: none;
+    font-weight: bold;
+}
+
+/* -------------- nav bar 2 ---------- */
+
+.nav-bar-2 ul{
+    display: flex;
+    background-color: 	#232f3e;
+    color: #f2f2f2;
+}
+
+.nav-bar-2 ul li a{
+    color: #f2f2f2;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.nav-bar-2 ul li{
+    padding: 8px 9px;
+    margin-left: 6px;
+}
+
+
+/* ------------------------- card layout --------------------- */
+
+
+.container img{
+    width: 100%;
+}
+
+.card-layout{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   flex-direction: row;
+   margin-top: -25%;
+   padding: 50px;
+}
+
+.card{
+    margin: 10px;
+    width: 20%;
+    padding: 20px;
+    background-color:#f2f2f2;
+}
+
+.prime-vedio{
+    flex-grow: 2;
+    flex-shrink: 2;
+    background-image: url(asset/image/bhola.jpg);
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin: 10px;
+    color: #f2f2f2;
+
+}
+
+.img{
+    width: 100%;
+    height: 250px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+/* ---------------------footer-------------------- */
+
+footer{
+    max-height: 80%;
+}
+.footer{
+    
+    padding: 50px;
+    color: #f2f2f2;
+    background-color: #232F3E;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.footer-links{
+    display: flex;
+    padding: 50px;
+    justify-content:space-around;
+}
+
+.bactoTop-but{
+    background-color: #333f4d;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#footer-text{
+    padding-top: 5px;
+    text-align: center;
+}
